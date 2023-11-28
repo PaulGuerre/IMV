@@ -1,0 +1,48 @@
+.mainContainer {
+    background-image: url('../lib/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width:100vw;
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+}
+
+.appContainer {
+    width: 50vw;
+    justify-self: center;
+    align-self: center;
+}
+
+/* WebKit (Chrome, Safari) */
+.mainContainer::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff; /* Set the background color to white */
+}
+  
+/* WebKit thumb (draggable part) */
+.mainContainer::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Set the thumb color */
+}
+
+/* Firefox */
+.mainContainer {
+    scrollbar-color: #fff #ccc; /* Set scrollbar color and thumb color */
+}
+
+/* Microsoft Edge and Internet Explorer */
+.mainContainer {
+    scrollbar-base-color: #fff; /* Set scrollbar color */
+}
+
+/* Optional: Set thumb color for Edge and IE */
+.mainContainer {
+    scrollbar-face-color: #ccc; /* Set thumb color */
+}
+
+@media (max-width: 768px) {
+    .appContainer {
+        width: 100%;
+    }
+}

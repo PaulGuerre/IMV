@@ -1,0 +1,9 @@
+.usersContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 5%;
+}

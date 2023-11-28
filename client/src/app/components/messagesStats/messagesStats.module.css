@@ -1,0 +1,35 @@
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.stat {
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.statTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statNumber {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statDate {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}

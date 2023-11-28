@@ -1,0 +1,21 @@
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.userIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.userName {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}

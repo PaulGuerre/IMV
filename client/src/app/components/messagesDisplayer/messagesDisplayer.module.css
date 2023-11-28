@@ -1,0 +1,32 @@
+.messageDisplayer {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10vh;
+}
+
+.messageContent {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: fit-content;
+}
+
+.messageSender {
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.messageSender1 {
+    margin: 10px;
+}
+
+.messageSender2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
